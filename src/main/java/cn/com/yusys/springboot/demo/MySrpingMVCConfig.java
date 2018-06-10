@@ -24,7 +24,7 @@ public class MySrpingMVCConfig extends WebMvcConfigurerAdapter{
             @Override
             public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
                     throws Exception {
-                System.out.println("自定义拦截器............");
+                System.out.println("11自定义拦截器............");
                 return true;
             }
 
