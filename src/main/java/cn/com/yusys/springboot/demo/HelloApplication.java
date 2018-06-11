@@ -21,7 +21,7 @@ public class HelloApplication {
     @RequestMapping("hello")
     @ResponseBody
     public String hello(){
-        System.out.println("sunwei nb");
+        System.out.println("sunwei nb 123");
         return "hello sunwei";
     }
 
